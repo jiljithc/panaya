@@ -91,7 +91,7 @@ fun BankAppUI(account: BankAccount) {
         verticalArrangement = Arrangement.spacedBy(16.dp)
     ) {
         // Account Details Section
-        Text(text = "--- Account Details ---", style = MaterialTheme.typography.titleLarge)
+        Text(text = "--- Account Details are---", style = MaterialTheme.typography.titleLarge)
         Text(text = "Account Holder: ${account.accountHolderName}")
         Text(text = "Account Number: ${account.accountNumber}")
 
